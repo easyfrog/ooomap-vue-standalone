@@ -1,0 +1,69 @@
+.floorWrap>div:not(:first-child) {
+    margin-top: 20px
+}
+
+.floorWrap {
+    position: absolute
+}
+
+.floorWrap:focus {
+    outline: none !important
+}
+
+.hidden.svelte-bg3u0k {
+    display: none
+}
+
+.highlight.svelte-1n9ujv {
+    color: #4495ef
+}
+
+.normalColor.svelte-1n9ujv {
+    color: #666
+}
+
+.icon-size.svelte-1n9ujv {
+    margin: auto
+}
+
+#floor_container.svelte-net7p3::-webkit-scrollbar {
+    width: 0px;
+    background: transparent
+}
+
+.gradientBottom.svelte-net7p3 {
+    pointer-events: none;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    background-image: linear-gradient(to bottom, rgba(208, 208, 208, 0), rgba(208, 208, 208, 1))
+}
+
+.gradientTop.svelte-net7p3 {
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 20px;
+    background-image: linear-gradient(to top, rgba(208, 208, 208, 0), rgba(208, 208, 208, 1))
+}
+
+.highlight.svelte-net7p3 {
+    color: #4495ef
+}
+
+.normalColor.svelte-net7p3 {
+    color: #666
+}
+
+.theContainer.svelte-17do8sa {
+    background-color: #fff;
+    box-shadow: 0 8px 16px 0 hsla(0, 0%, 77.6%, .4);
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    top: 200px;
+    right: 20px;
+    overflow: hidden
+}
