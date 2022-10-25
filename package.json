@@ -8,11 +8,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "ooomap": "^1.5.2-4",
-    "vue": "^3.2.25"
+    "ooomap": "^1.5.6-8",
+    "vue": "^3.2.40"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^2.3.4",
-    "vite": "^2.9.15"
+    "@vitejs/plugin-vue": "^3.1.2",
+    "vite": "^3.1.7"
   }
 }
