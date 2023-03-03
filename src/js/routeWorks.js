@@ -43,6 +43,15 @@ export class RouteWorks {
     }
 
     /**
+     * @param {RouteResult} routeResult 
+     * @param {number} [height=2.1] 
+     */
+    _setLinesHeight(routeResult, height = 2.1) {
+        var arr = routeResult.flat()
+        arr.forEach(data => data.lines.forEach(line => line.position.z = height) )
+    }
+
+    /**
      * points: [
      *     {
      *          floorNumber: 1
@@ -66,6 +75,9 @@ export class RouteWorks {
 
         this.building.findPath.apply(this.building, points).then(res => {
             console.log('findPath', res);
+
+            // 设置线的高度 
+            this._setLinesHeight(res, 2.1)
         })
     }
 
